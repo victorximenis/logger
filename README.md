@@ -70,7 +70,7 @@ func main() {
     config := logger.NewConfig()
     config.ServiceName = "auth-service"
     config.Environment = "production"
-    config.LogLevel = logger.INFO
+    config.LogLevel = core.INFO
     
     // Habilitar observabilidade
     config.Observability.Enabled = true
