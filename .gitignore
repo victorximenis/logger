@@ -1,0 +1,81 @@
+# Binários compilados do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Arquivos de cobertura de teste
+*.out
+coverage.txt
+coverage.html
+
+# Diretório de dependências (vendor)
+vendor/
+
+# Arquivos de configuração do Go
+go.work
+go.work.sum
+
+# Arquivos de build
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+.tmp/
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+config.local.*
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Arquivos de profiling
+*.prof
+*.pprof
+
+# Arquivos de debug
+debug
+__debug_bin*
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos específicos do projeto
+# (descomente se necessário)
+# secrets/
+# private/ 
